@@ -1,0 +1,8 @@
+BEGIN 
+INPUT n
+NUMBERS n, sum
+X = n+sum
+IF (n<0) THEN
+	WRITE X
+END 
+
