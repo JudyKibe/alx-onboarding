@@ -1,0 +1,25 @@
+BEGIN
+NUMBERS n1, n2, n3
+READS n1,n2,n3
+IF (n1 < n2) THEN
+	IF (n1 < n3) THEN
+		IF (n2 < n3) THEN
+			WRITE n1,n2,n3
+		ELSE
+			WRITE n1,n3,n2
+		END IF
+	ELSE
+		WRITE n3,n1,n2
+	END IF
+ELSE
+	IF (n2<n3) THEN
+		IF (n1<n3) THEN
+			WRITE n2,n1,n3
+		ELSE 
+			WRITE n2,n3,n1
+		END IF
+	ELSE
+		WRITE n3,n2,n1
+	END IF
+END IF
+END
