@@ -1,0 +1,9 @@
+BEGIN
+NUMBER n1, n2, n3, sn1, sn2, sn3, add
+INPUT n1, n2, n3
+sn1 = n1*n1
+sn2 = n2*n2
+sn3 = n3*n3
+add = sn1+sn2+sn3
+OUTPUT add
+END
